@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    max-width: 1440px;
+    width: 1423px;
+}
+main{
+    max-width: 1440px;
+    width: 1423px;
+}
+footer{
+    max-width: 1440px;
+    width: 1423px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 0px;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+header nav ul li{
+    margin-right: 1.8rem;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgba(36, 46, 82, 1);
+}
+
+button{
+    background-color: rgba(243, 96, 59, 1);
+    border-radius: 50px;
+    color: white;
+    padding: 0.9rem 2rem;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+main section.section1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section.section1 article{
+    position: relative;
+}
+
+main article.article1s1{
+    width: 30%;
+}
+
+main section h2{
+    color: #232C50;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 66.47px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.035em;
+}
+
+main section article.article1s1 p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 157.1%;
+    display: flex;
+    align-items: center;
+    padding: 28px 0px;
+}
+
+main section article.article2s1{
+    width: 40%;
+    display: flex;
+}
+
+main section.section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 112px;
+}
+
+main section article.article1s2 h4{
+    font-weight: 700;
+    color: #232851;
+    font-size: 2.4rem;
+    padding-bottom: 36px;
+}
+main section article.article1s2 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+
+}
+main section article.article1s2{
+    width: 30%;
+}
+main section div.article2s2 {
+    width: 40%;
+}
+
+main section.section2 div.article2s2 article{
+    display: flex;
+    align-items: flex-start;
+}
+
+main section.section2 div.article2s2 div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+main section.section2 div small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F3603B;
+    border-radius: 30px;
+    width: 200px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all;
+}
+
+main section div h6{
+    color: #323851;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+main section div p {
+    color:#B3B2B7 ;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 25px 25px 25px 0;
+}
+
+main section.section3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section div.cards{
+    display: flex;
+    background-color: #FAFAFA;
+    width: 85%;
+}
+
+main section div article{
+    width: 100%;
+    padding-top: 30px;
+}
+
+main section.section3 h4{
+    font-weight: 700;
+    color:#242E53 ;
+    font-size: 2.7rem;
+    margin-top: 124px;
+    padding-bottom: 109px;
+}
+
+main section.section3 article h5{
+    font-weight: 700;
+    color: #3F4868;
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main section.section3 article{
+    position: relative;
+    text-align: center;
+}
+
+main section article img.circlepic{
+    max-width: 70px;
+    position: absolute;
+    right: 168px;
+    bottom: 180px;
+}
+main section.section3 button{
+    margin-top: 45px;
+}
+
+main section.section4{
+    display: flex;
+    background-color: #F3613C;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+main section.section4 h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2.6rem;
+    padding: 64px 0px 64px 165px;
+}
+
+main section.section4 button{
+    background-color:#FFFFFF ;
+    color: #F3603B;
+    font-weight: 500;
+    display: flex;
+    margin: 102px 195px 102px 0px;
+}
+
+footer nav{
+    display: flex;
+    background-color: #1E1E26;
+    justify-content: space-evenly;
+}
+
+footer article.article1s5{
+    flex-direction: column;
+}
+
+footer article.article1s5 img{
+    padding-top: 67px;
+}
+
+footer article.article1s5 div{
+    padding-top: 67px;
+    padding-bottom: 70px;
+}
+
+footer article.article1s5 div i{
+    color: white;
+    margin: 3px;
+}
+
+footer article.article2s5{
+    color:#FFFFFF ;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer nav div.menuinferior{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+footer nav div ul li{
+    margin-bottom: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer nav article div.form{
+    display: flex;
+    padding-top: 56px;
+}
+
+footer nav article div.form form input{
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+    margin-right: 9px;
+}
+
+footer nav article p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #8C8C94;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+
+button:hover{
+    box-shadow: 0rem 0.25rem 0.44rem #F3603B;
+    cursor: pointer;
+    transform: scale(120%);
+}
+a:hover{
+    color: #F3613C;
+}
+
+a li:hover{
+    color:#F3613C ;
+}
+a:hover{
+    color: #B3B2B7;
+}
+
+a i:hover{
+    color: #F3613C;
+}
+
+input:invalid{
+    outline-color: red;
+}
+
+.fa-solid{
+    display: none;
+}
+
+p.copyrightoculto{
+    display: none;
+}
+
+@media (max-width: 376px){
+
+
+header{ 
+    max-width: 375px;
+    width: 350px;
+}
+main{
+    max-width: 375px;
+    width: 350px;
+}
+footer{
+    max-width: 375px;
+    width: 350px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header div i{
+    color: rgb(35, 44, 81);
+    font-size: xx-large;
+    display: flex;
+}
+
+.fa-solid{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+header img {
+    size: 25vh;
+    margin-left: 20px;
+}
+
+header ul li{
+    display: none;
+}
+
+header button {
+    display: none;
+}
+header nav{
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+main section.section1{
+    display: flex;
+    flex-direction: column-reverse ;
+    flex-wrap: wrap;
+}
+
+main section.section1 article.article1s1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+main section.section1 article img{
+    width: 350px;
+    padding-left: 20px;
+}
+
+main section.section1 article h2 {
+    font-size: 2.5rem;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    padding-top: 30px;
+}
+
+main section.section1 article p{
+    font-weight: 500;
+    color: #B3B2B7;
+    text-align: center;
+}
+
+main section.section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 350px;
+}
+
+main section.section2 article.article1s2{
+    width: 350px;
+}
+main section.section2 article.article1s2 h4{
+    width: 350px;
+}
+
+main section.section2 article.article1s2 p{
+    width: 350px;
+    text-align: center;
+    font-weight: 500;
+    color: #B3B2B7;
+    padding-bottom: 60px;
+}
+
+main section.section2 div.article2s2{
+    width: 350px;
+}
+
+main section.section2 div.article2s2 article{
+    width: 350px;
+    align-content: center;
+    text-align: center;
+}
+
+main section.section2 div.article2s2 article small{
+    width: 60px;
+    position: absolute;
+    height: 38px;
+}
+
+main section.section2 div.article2s2 article div{
+    width: 350px;
+}
+
+main section.section2 div.article2s2 article div h6{
+    margin-left: 65px;
+    width: 290px;
+    text-align: left;
+    padding-top: 15px;
+}
+
+main section.section2 div.article2s2 article div p{
+    text-align: left;
+    width: 350px;
+    padding: 30px 0px 15px 5px;
+}
+
+main section.section3{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+main section.section3 h4{
+    font-size: 2rem;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.035em;
+    width: 350px;
+    align-content: center;
+    padding-left: 40px;
+}
+
+main section.section3 div.cards article.card1 img{
+    display: flex;
+    right: 112px;
+}
+
+main section.section3 div.cards article.card2{
+    display: none;
+}
+
+main section.section3 div.cards article.card3{
+    display: none;
+}
+
+main section.section4{
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.section4 h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 55px 25px 25px 25px
+}
+
+main section.section4 button{
+    display: flex;
+    margin: 20px 105px 70px 110px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 358px;
+}
+
+p.copyrightoculto{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #8C8C94;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+p.copyrightoculto2{
+    display: none;
+}
+
+footer nav div.menuinferior{
+    display: flex;
+    align-items: center;
+    width:350px;
+}
+
+footer nav article.article1s5{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer nav article.article1s5 img{
+    padding-top: 10px;
+}
+}
+
+
+
